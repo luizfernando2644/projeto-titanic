@@ -1,0 +1,60 @@
+body{
+    background-color: var(--azul_escuro);
+}
+
+.div-imagem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+.imagem {
+    width: 150vh;
+    height: 99vh;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.313);
+    position: relative;
+}
+
+.ingressos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+h1 {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.plano {
+    background-color: white;
+    text-align: center;
+    padding: 3px;
+    border-radius: 7px;
+    margin: 10px;
+}
+
+ul {
+    text-align: justify;
+}
+
+ul li {
+    margin: 5px;
+}
+
+.nao-incluso {
+    text-decoration: line-through;
+}
+
+.tela2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}

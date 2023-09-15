@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+:root {
+    --azul_claro: #37A6DB;
+    --azul_escuro: #1D6A8F;
+    --roxo: #9B41DC;
+    --laranja: #DB9542;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desabilitado {
+    display: none;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingressos</title>
+    <link rel="stylesheet" href="../estilo/geral.css">
+    <link rel="stylesheet" href="../estilo/ingresso.css">
+</head>
+<body>
+    <div class="div-imagem">
+        <img class="imagem" src="../imagens/titanic.jpg" alt="Imagem do navio Titanic gerada por I.A">
+    </div>
+    <div class="tela1">
+        <div class="ingressos">
+            <div class="plano">
+                <h2>Plano Básico</h2>
+                <ul>
+                    <li>R$ 1000,00 por pessoa</li>
+                    <li>Tour guiado pelo navio</li>
+                    <li>Jantar</li>
+                    <li>Acesso à loja de lembranças</li>
+                    <li class="nao-incluso">Sessão de Cinema</li>
+                    <li class="nao-incluso">Teatro</li>
+                    <li class="nao-incluso">Visita ao deque de observação</li>
+                </ul>
+                <div class="botao">
+                    <button type="submit" onclick="selecionar('BÁSICO')">Selecionar Pacote</button>
+                </div>
+            </div>
+            <div class="plano">
+                <h2>Plano Médio</h2>
+                <ul>
+                    <br>    
+                    <li>R$ 1500,00 por pessoa</li>
+                    <li>Tour extendido</li>
+                    <li>Jantar temático</li>
+                    <li>Acesso prioritário à loja de lembranças</li>
+                    <li>Sessão de Cinema</li>
+                    <li class="nao-incluso">Teatro</li>
+                    <li class="nao-incluso">Visita ao deque de observação</li>
+                </ul>
+                <div class="botao">
+                    <button type="submit" onclick="selecionar('MÉDIO')">Selecionar Pacote</button>
+                </div>
+            </div>
+            <div class="plano">
+                <h2 class="pacote">Plano Premium</h2>
+                <ul>
+                    <li>R$ 2000,00 por pessoa</li>
+                    <li>Tour de luxo privado</li>
+                    <li>Jantar de Gala</li>
+                    <li>Pacote de lembranças de luxo</li>
+                    <li>Experiência Noturna</li>
+                    <li>Teatro</li>
+                    <li>Visita ao deque de observação</li>
+                </ul>
+                <div class="botao">
+                    <button type="submit" onclick="selecionar('PREMIUM')">Selecionar Pacote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="tela2 desabilitado">
+
+    </div>
+    <script src="../script/plano-ingresso.js"></script>
+    <script src="../script/mudar-preco-ingresso.js"></script>
+</body>
+</html>
