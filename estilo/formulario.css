@@ -32,3 +32,53 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.conteiner {
+    width: 99vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela3 {
+    background-color: white;
+    width: 50vw;    
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.276);
+}
+
+.tela4 {
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.276);
+}
+
+.confirmacao {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao {
+    margin: 10px;
+    padding: 7px;
+    font-size: 1.2em;
+}
+
+.agradecimento {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.276);
+    text-align: center;
+}
