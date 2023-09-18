@@ -39,6 +39,10 @@ h1 {
     margin: 10px;
 }
 
+.pacote {
+    font-size: 2em;
+}
+
 ul {
     text-align: justify;
 }
@@ -57,4 +61,15 @@ ul li {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.voltar {
+    cursor: pointer;
 }

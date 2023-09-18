@@ -32,7 +32,7 @@ function selecionar(plan) {
             <div>
                 <p>Valor da Compra: <span onchange="mudar()" class="valor"></span></p>
             </div>
-            <button><a href = '../formulário/formulariopessoal.html'>Avançar</a></button>
+            <button><a href = 'formulariopessoal.html'>Avançar</a></button>
             <button class='voltar'>Voltar</button>
         </fieldset>         
     </form>
